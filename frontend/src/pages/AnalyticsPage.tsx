@@ -983,7 +983,13 @@ function AnalyticsPage() {
         </div>
         <h2 className="font-['DM_Serif_Display'] text-2xl text-white">Your analytics start here</h2>
         <p className="mt-2 max-w-sm text-sm text-[rgba(255,255,255,0.35)]">Log your first check-in to begin tracking your fitness journey with charts and trend insights.</p>
-        <Link to="/progress" className="mt-5 inline-flex h-10 items-center rounded-xl bg-white px-5 text-sm font-semibold text-black hover:bg-white/90 transition-colors">
+        <Link
+          to="/progress"
+          className="mt-5 inline-flex items-center transition-colors"
+          style={{ background: '#ffffff', color: '#000000', fontWeight: 600, padding: '12px 24px', borderRadius: 8 }}
+          onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.9)' }}
+          onMouseLeave={e => { e.currentTarget.style.background = '#ffffff' }}
+        >
           Log first check-in
         </Link>
       </div>
@@ -1196,7 +1202,10 @@ function AnalyticsPage() {
               <rect x="74" y="12" width="6" height="12" rx="2" fill="#334155" />
             </svg>
             <p className="text-sm text-[rgba(255,255,255,0.35)] mb-3">Log weights in Training to track strength progress</p>
-            <Link to="/training" className="inline-flex h-9 items-center rounded-lg bg-white px-4 text-sm font-semibold text-black hover:bg-white/90 transition-colors">
+            <Link to="/training" className="inline-flex h-9 items-center rounded-lg px-4 text-sm font-semibold transition-colors"
+              style={{ background: '#ffffff', color: '#000000' }}
+              onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.9)' }}
+              onMouseLeave={e => { e.currentTarget.style.background = '#ffffff' }}>
               Go to Training {'→'}
             </Link>
           </div>
@@ -1231,7 +1240,10 @@ function AnalyticsPage() {
               <div className="flex flex-col items-center py-5 text-center">
                 <p className="text-sm text-[rgba(255,255,255,0.35)] mb-1">Log 2+ sessions to see your strength curve</p>
                 <p className="text-xs text-[rgba(255,255,255,0.35)] mb-3">for {selectedExercise}</p>
-                <Link to="/training" className="inline-flex h-9 items-center rounded-lg bg-white px-4 text-sm font-semibold text-black hover:bg-white/90 transition-colors">
+                <Link to="/training" className="inline-flex h-9 items-center rounded-lg px-4 text-sm font-semibold transition-colors"
+                  style={{ background: '#ffffff', color: '#000000' }}
+                  onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.9)' }}
+                  onMouseLeave={e => { e.currentTarget.style.background = '#ffffff' }}>
                   Go to Training {'→'}
                 </Link>
               </div>
