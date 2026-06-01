@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#000000"/>
+  <text x="3" y="30.6"
+    font-family="Inter, sans-serif"
+    font-weight="800"
+    font-size="36"
+    fill="white"
+    letter-spacing="-2">G</text>
+  <circle cx="39.7" cy="16.2" r="15.1"
+    stroke="#10b981"
+    stroke-width="4"
+    fill="none"
+    stroke-linecap="round"
+    stroke-dasharray="79.2 14.4"
+    stroke-dashoffset="7.2"
+    transform="rotate(-45 39.7 16.2)"/>
+</svg>
