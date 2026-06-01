@@ -135,7 +135,7 @@ Custom SVG-based data visualizations display weight trend, recovery score trajec
 │    CoachingInsightService                    │
 │    CoachingMemoryService                     │
 │                                              │
-│    Controller → Service → Repository        │
+│    Controller → Service → Repository         │
 │    GlobalExceptionHandler                    │
 │    JWT Filter · BCrypt · SecurityConfig      │
 └─────────────────────┬────────────────────────┘
