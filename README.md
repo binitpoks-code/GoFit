@@ -335,7 +335,7 @@ Containerizing the Spring Boot backend ensures that the runtime environment on R
 Graduating CS and IT Student · Full Stack Developer
 
 - GitHub: [binitpoks-code](https://github.com/binitpoks-code)
-- LinkedIn: [Add your LinkedIn URL here]
+- LinkedIn: [binit-pokharel](https://www.linkedin.com/in/binit-pokharel-b342a7251)
 - Live Project: [go-fit-rho.vercel.app](https://go-fit-rho.vercel.app)
 
 ---
