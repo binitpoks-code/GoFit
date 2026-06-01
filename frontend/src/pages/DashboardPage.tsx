@@ -542,8 +542,9 @@ function DashboardPage() {
       {/* Greeting header */}
       <div className="mb-2">
         <h1 className="font-['DM_Serif_Display'] text-[22px] sm:text-[26px] text-white">
-          {summary.overviewTitle?.split(profile.name)[0] || 'Welcome back, '}
+          {summary.overviewTitle || 'Welcome back'}{', '}
           <span className="italic text-white">{profile.name || 'Athlete'}</span>
+          {'.'}
         </h1>
         <p className="mt-0.5 text-[13px]" style={{ color: 'rgba(255,255,255,0.35)' }}>
           {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
